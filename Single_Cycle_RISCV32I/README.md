@@ -7,25 +7,14 @@ A **32-bit Single Cycle RISC-V Processor** designed in **SystemVerilog**, implem
 - ✅ Complete RV32I Base Integer ISA implementation
 - ✅ Fully synthesizable SystemVerilog RTL
 - ✅ Modular processor architecture
-- ✅ Custom SystemVerilog testbench
 
-## Supported Instructions
-
-- **R-Type:** ADD, SUB, SLL, SLT, SLTU, XOR, SRL, SRA, OR, AND
-- **I-Type:** ADDI, SLTI, SLTIU, XORI, ORI, ANDI, SLLI, SRLI, SRAI
-- **Load:** LB, LH, LW, LBU, LHU
-- **Store:** SB, SH, SW
-- **Branch:** BEQ, BNE, BLT, BGE, BLTU, BGEU
-- **Jump:** JAL, JALR
-- **Upper Immediate:** LUI, AUIPC
 
 ## Project Structure
 
 ```
 Single_Cycle_RISCV32I/
-├── RTL/
-├── Testbench/
-├── Memory/
+├── rtl/
+├── tb/
 ├── Docs/
 └── README.md
 ```
