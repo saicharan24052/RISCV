@@ -14,7 +14,9 @@ A **32-bit Single Cycle RISC-V Processor** designed in **SystemVerilog**, implem
 ```
 Single_Cycle_RISCV32I/
 ├── rtl/
-├── tb/
+│   ├── instruction.txt    # Hexadecimal instruction memory contents
+│   └── ...
+├── tb/ 
 ├── Docs/
 └── README.md
 ```
